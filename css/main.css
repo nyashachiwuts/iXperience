@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    width: 100%;
+    height: 50px;
+    background: #1c1c1c;
+}
+footer {
+    width: 100%;
+    height: 500px;
+    background: #1c1c1c;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    min-height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.dot {
+    color: #F9007A;
+}
+
+.header {
+    background: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: calc(100vh - 50px);
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.header {
+    color: #fff;
+}
+.header h1 {
+    font-size: 72px;
+    margin-bottom: 54px;
+    /*color: #F9007A;*/
+}
+.header p {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 48px;
+}
+.header button {
+    border:1px solid #fff;
+    font-size: 16px;
+    background: unset;
+    /*border-radius: 0;*/
+    color:#fff;
+}
+.header button:hover {
+    border:1px solid #F9007A;
+    background:#F9007A;
+    color:#fff;
+}
+.feature-title {
+    border-left: 8px solid #F9007A;
+    padding-left: 16px;
+}
+.alt {
+    padding: 80px;
+   
+}
+.alt h1, .alt p {
+    border-left: unset;
+    text-align: center;
+    max-width: 960px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+.underline {
+    width: 80px;
+    height: 10px;
+    background: #F9007A;
+    margin: 0 auto;
+}
+.underline-alt {
+    width: 80px;
+    height: 10px;
+    background: #000;
+    margin: 0 auto;
+}
+.val {
+    padding: 80px;
+    background: #000;
+    color: #fff;
+    height: 400px;
+}
+.val h1 {
+    margin-bottom: 24px;
+}
+.focus {
+    padding: 80px;
+    color: #fff;
+    position: relative;
+
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , var(--image-url) center center;
+    background-size: cover;
+}
+.focus h3 {
+    z-index: 9999999;
+}
+.how {
+    padding: 80px;
+    background: #fff;
+    color: #000;
+}
+.how h1 {
+   font-size: 32px;
+}
+.cta {
+    text-align: center;
+    padding: 80px;
+    background:#fff;
+}
+.cta button {
+    border: 2px solid #000;
+    font-size: 18px;
+    background:unset;
+    color:#000;
+}
+.cta button:hover {
+    border: 2px solid #F9007A;
+    background:#F9007A;
+    color: #fff;
+}
