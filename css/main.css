@@ -140,6 +140,7 @@ footer {
 .how {
     border-top: 4px solid #1a2d59;
     border-bottom: 4px solid #1a2d59;
+    margin-bottom: 120px;
 }
 .how-text {
     padding: 48px;
